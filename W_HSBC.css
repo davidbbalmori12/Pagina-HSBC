@@ -1,0 +1,303 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --primary_color:rgb(219, 0, 0) ;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    height: 4rem;
+    align-items: center;
+    gap: 80rem;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem
+}
+#nav .first_Section{
+    display: flex;
+    gap: 2rem;
+}
+#nav .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15rem;
+    background-color: var(--primary_color);
+    text-align: center;
+}
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#header .nav{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0rem 0rem 0.5rem rgb(114, 114, 114);
+    width: 100%;
+    height: 8rem;
+    gap: 7rem;
+}
+#header .nav img{
+    width: 15rem;
+}
+#header .nav_option h1{
+    font-size: 2rem;
+}
+#header .nav_option p{
+    font-size: 1.3rem;
+}
+#header .first_Section{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+#header .first_Section img{
+width: 83.9rem;
+}
+#header .first_section_text {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    width: 40rem;
+}
+#header .first_section_text h1{
+    font-size: 5rem;
+}
+#header .first_section_text p{
+    font-size: 1.7rem;
+}
+#header .first_section_buttons{
+    display: flex;
+    font-size: 1.7rem;
+    gap: 2rem;
+}
+#header .first_section_buttons a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary_color);
+    padding: 1rem 2rem;
+}
+#header .first_section_buttons a:nth-child(2){
+    color: black;
+    background-color: white;
+    border: 0.1rem solid black;
+}
+#header .second_Section{
+    display: flex;
+    gap: 3rem;
+}
+#header .second_section_block{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0rem 0rem 0.5rem rgb(187, 187, 187);
+    padding: 1.6rem 2rem 2.4rem 2rem;
+    width: 66.8rem;
+    height: 14rem;
+    gap: 2rem;
+}
+#header .second_section_block a{
+    color: black;
+    font-size: 3rem;
+}
+#header .second_section_block p{
+
+    font-size: 2rem;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+#main .first_Section{
+    display: flex;
+    flex-direction: column;
+    width: 135rem;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    gap: 4rem;
+    width: 130rem;
+}
+#main .cards{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+#main .special_card{
+    display: flex;
+    flex-direction: column;
+    width: 59.7rem;
+    height: 48rem;
+    box-shadow: 0rem 0rem 0.2rem rgb(138, 138, 138);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: white;
+}
+#main .special_card img{
+    width: 59.7rem;
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+}
+#main .special_card h1{
+    font-size: 3rem;
+    width: 90%;
+}
+#main .special_card p{
+    font-size: 1.7rem;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+#main .card{
+    display: flex;
+    flex-direction: column;
+    width: 30.1rem;
+    height: 48rem;
+    box-shadow: 0rem 0rem 0.2rem rgb(145, 145, 145);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: white;
+}
+#main .card img{
+    width: 30.1rem;
+    height: 16.8rem;
+    display: flex;
+    flex-direction: column;
+}
+#main .card h1{
+    font-size: 3rem;
+    width: 90%;
+}
+#main .card p{
+    font-size: 1.7rem;
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-bottom: 15rem;
+}
+#main .first_section_background{
+    background-color: rgb(233, 233, 233);
+    height: 68rem;
+}
+#main .first_section_text{
+    margin: 3rem 3rem;
+}
+#main .card_margin h1{
+    margin-bottom: 5rem;
+}
+#main .nav{
+    display: flex;
+    gap: 4rem;margin-top: 7rem;
+}
+#main .nav img{
+    width: 4rem;
+}
+#main .nav_text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#main .nav_text a{
+text-decoration: none;
+font-size: 1.6rem;
+color: black;
+}
+#main .contacts{
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    border-top: 0.1rem solid gray;
+    width: 140rem;
+    justify-content: space-between;
+}
+#main .contacts img{
+    width: 3rem;
+}
+#main .contacts h1{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+#main .contacts p{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+#main .contacts_imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    gap: 2rem;
+}
+#main .info{
+    background-color: rgb(80, 80, 80);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    gap: 10rem;
+    height: 15rem;
+    margin-top: 5rem;
+}
+#main .info_text a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+#main .info_text p{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}
+#main .info_text{
+    width: 22rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-right: 0.1rem solid rgb(180, 180, 180);
+}
+#footer{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+}
+#footer .nav{
+    width: 50rem;
+}
+#footer .nav a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
